@@ -1,0 +1,47 @@
+https://www.youtube.com/channel/UCZAAhdw4QNUvm55GdmoeB7Q Youtube kanalı
+Kodlar
+void setup() {
+
+//Arduino Çalıştığında:
+
+
+
+  pinMode(12, OUTPUT);
+
+//12. pinimizi çıkış pini olarak tanımlıyoruz.
+
+  
+
+}
+
+
+
+void loop(){
+
+
+
+  digitalWrite(12, HIGH);
+
+//12. pine elektrtik gönder.
+
+
+
+  delay(1000);
+
+//1 saniye bekle.(delay=bekle)
+
+
+
+  digitalWrite(12, LOW);
+
+//12. pine elektrik göndermeyi bırak.
+
+
+
+  delay(1000);
+
+//1 saniye bekle.
+
+  
+
+}
